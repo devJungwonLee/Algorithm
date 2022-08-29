@@ -1,0 +1,1 @@
+print(String(Unicode.Scalar("가".unicodeScalars.first!.value + UInt32(readLine()!)! - 1)!))
